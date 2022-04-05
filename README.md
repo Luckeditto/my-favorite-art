@@ -1,2 +1,2 @@
 # my-favorite-art
- site html css onde apresento minhas formas de arte preferidas, sejam elas pinturas, esculturas, obras literárias, músicas ou filmes.
+ site html css onde exponho minhas obras de arte preferidas, sendo elas pinturas, livros, músicas e filmes.
