@@ -1,12 +1,131 @@
-html {
-    background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
+body {
+    font-size: 100%;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+.header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ padding: 24px;
+ 
+}
+
+.h1-header {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.item-menu {
+    margin: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.conteudo-principal {
+
+}
+
+.pinturas-itens{
+
+}
+
+.titulo-section{
+    font-family: 'Indie Flower', cursive;
+}
+
+.div-pintura{
 
 
 
+}
 
+.imagem-pintura{
+    
+
+}
+
+.titulo{
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+
+.descricao{
+    font-family: 'Pacifico', cursive;
+}
+
+.referencia {
+    font-family: 'Pacifico', cursive;
+}
+
+.livros-itens {
+
+}
+
+.div-livro {
+
+}
+
+.imagem-livro {
+    width: 300px;
+    height:400px;
+}
+
+.filmes-itens {
+    
+}
+
+.div-filme {
+
+}
+
+.imagem-filme {
+    width: 300px;
+    height:400px;
+
+}
+
+.musicas-itens {
+
+}
+
+.div-musica {
+
+}
+
+.footer {
+
+}
+
+.contatos-itens {
+text-align: center;
+padding: 40px;
+}
+.git-link {
+
+    font-family: 'Anton', sans-serif;
+    
+}
+h3 {
+    margin-top: 100px;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+}
 
 a:link, i {
     color: black;
