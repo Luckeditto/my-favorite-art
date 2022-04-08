@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,42 +16,60 @@
 body {
     font-size: 100%;
     background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,113,224,1) 25%, rgba(135,70,195,1) 50%, rgba(75,49,217,1) 75%, rgba(148,187,233,1) 100%);
 }
 
 .header {
  display: flex;
  flex-direction: row;
- align-items: center;
  justify-content: space-around;
  padding: 24px;
+ border-bottom: 0.2rem solid white;
+ background-color: #5BD3A9;
+ 
+ 
  
 }
 
 .h1-header {
     font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
 
 }
 
 .item-menu {
     margin: 30px;
     font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    background-color: #5DD5AD;
+    border-radius: 100px;
+    
+}
+.item-menu:hover {
+    background-color: #30AA80;
 }
 
 .conteudo-principal {
+    margin-top: 10%;
 
 }
 
-.pinturas-itens{
+#pinturas {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    text-align: center;
+    justify-content:space-around ;
+}
+
 
 }
 
-.titulo-section{
-    font-family: 'Indie Flower', cursive;
+.titulo-section {
+    
 }
 
 .div-pintura{
+    
 
 
 
@@ -53,53 +77,52 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
 
 .imagem-pintura{
     
+    
+    
+    
 
 }
 
-.titulo{
+.titulo { 
     font-family: 'Shadows Into Light', cursive;
-
+    margin-top: 15px;
 
 }
 
 .descricao{
     font-family: 'Pacifico', cursive;
+    
+    
+    
+    
 }
 
 .referencia {
     font-family: 'Pacifico', cursive;
+    
 }
 
-.livros-itens {
 
-}
 
 .div-livro {
 
 }
 
 .imagem-livro {
-    width: 300px;
-    height:400px;
-}
-
-.filmes-itens {
     
-}
 
-.div-filme {
+
+
+
 
 }
 
 .imagem-filme {
-    width: 300px;
-    height:400px;
+    
 
 }
 
-.musicas-itens {
 
-}
 
 .div-musica {
 
@@ -110,12 +133,14 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
 }
 
 .contatos-itens {
-text-align: center;
-padding: 40px;
-}
-.git-link {
+    text-align: center;
 
+
+}
+
+.git-link {
     font-family: 'Anton', sans-serif;
+    
     
 }
 h3 {
