@@ -42,7 +42,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,113,224,1) 
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
     background-color: #5DD5AD;
-    border-radius: 100px;
+    border-radius: 50px;
     
 }
 .item-menu:hover {
@@ -50,8 +50,16 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,113,224,1) 
 }
 
 .conteudo-principal {
-    margin-top: 10%;
+    margin-top: 10rem;
 
+}
+
+.titulo-section {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5em;
+   
 }
 
 #pinturas {
@@ -59,38 +67,52 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,113,224,1) 
     grid-template-columns: 500px 500px;
     text-align: center;
     justify-content:space-around ;
+    align-items: center;
 }
 
 
-}
 
-.titulo-section {
-    
-}
+
+
 
 .div-pintura{
+    margin-bottom: 100px;
     
-
-
 
 }
+  
+ #img1 {
+     width: 400px;
+     height: 600px;
+     border-radius: 5px;
+ }
+ #img2 {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+}
 
-.imagem-pintura{
-    
-    
-    
-    
-
+#img3 {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+#img4 {
+    width: 500px;
+    height: 300px;
 }
 
 .titulo { 
     font-family: 'Shadows Into Light', cursive;
     margin-top: 15px;
+    font-size: 2.0rem;
 
 }
 
 .descricao{
     font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
     
     
     
@@ -99,33 +121,106 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,113,224,1) 
 
 .referencia {
     font-family: 'Pacifico', cursive;
-    
+    margin-bottom: 50px;
 }
 
-
+#livros {
+    display: grid;
+    grid-template-columns: 580px 580px;
+    text-align: center;
+    justify-content:space-around ;
+    align-items: center
+}
 
 .div-livro {
-
-}
-
-.imagem-livro {
+    margin-bottom: 100px;
     
+}
 
-
-
-
+#livro1 {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
 
 }
 
-.imagem-filme {
+#livro2 {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+#livro3 {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+#livro4 {
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+#filmes {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    text-align: center;
+    justify-content:space-around ;
+    align-items: center;
     
+}
+
+#filme1 {
+    width: 400px;
+     height: 600px;
+     border-radius: 5px;
 
 }
 
+#filme2 {
+    width: 400px;
+     height: 600px;
+     border-radius: 5px;
+     margin-top: 21px;
 
+}
+#filme3 {
+    width: 400px;
+     height: 600px;
+     border-radius: 5px;
+     margin-top: 45px;
+
+}
+#filme4 {
+    width: 400px;
+     height: 600px;
+     border-radius: 5px;
+     margin-bottom: 25px;
+
+}
+
+.div-filme {
+    margin-bottom: 100px;
+}
+#musicas {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    text-align: center;
+    justify-content:space-around ;
+    align-items: center;
+}
 
 .div-musica {
-
+    margin-bottom: 250px;
+    
 }
 
 .footer {
